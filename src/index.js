@@ -3,11 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import CircleAnimation from "./CircleAnimation";
+import ImageReveal from "./ImageReveal";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CircleAnimation />
+    <ImageReveal />
   </React.StrictMode>,
   document.getElementById("root")
 );

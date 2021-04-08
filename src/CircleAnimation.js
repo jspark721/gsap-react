@@ -60,7 +60,11 @@ function CircleAnimation() {
             ref={(el) => (circleRed = el)}
             className="circle red"
           ></div>
-          <div ref={(el) => (circleBlue = el)} className="circle blue"></div>
+          <div
+            onClick={state !== true ? handleExpand : handleDecrease}
+            ref={(el) => (circleBlue = el)}
+            className="circle blue"
+          ></div>
         </div>
       </header>
     </div>
